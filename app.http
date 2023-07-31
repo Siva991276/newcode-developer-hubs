@@ -1,0 +1,24 @@
+GET  http://localhost:3004/
+###
+POST http://localhost:3004/register
+Content-Type: application/json
+
+{
+    "fullname": "Bhavana", 
+    "email": "bhavana@gmail.com", 
+    "mobile": 9632514521, 
+    "skills": "java", 
+    "password": "bhavana123", 
+    "confirmpassword": "bhavana123"
+}
+###
+POST http://localhost:3004/login
+Content-Type: application/json
+
+{
+      "email": "Siva@gmail.com",
+       "password": "siva123"
+}
+###
+GET http://localhost:3004/alldevelopers
+token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiNjRjNzcyODJkMTFlMGY1YmMyMjAwNGQxIiwiaWF0IjoxNjkwNzk2MDk0LCJleHAiOjIwNTA3OTYwOTR9.Z4Ip4A8uE3uayWFTSl1yaz8n_JBoTtLjVU5bGfbSD1k
